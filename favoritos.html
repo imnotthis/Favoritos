@@ -20,30 +20,14 @@
     </nav>
     <!--MEIO DA PÁGINA-->
     <div class="item1">
-        <img src="img2.jpg">
-        <div class="textos">
-            <h5>ÓCULOS DE GRAU</h5>
-            <p>R$100</p>
-            <svg class="celebrate" width="100" height="100" xmlns="http://www.w3.org/2000/svg">
-                <polygon points="10,10 20,20" class="poly"></polygon>
-                <polygon points="10,50 20,50" class="poly"></polygon>
-                <polygon points="20,80 30,70" class="poly"></polygon>
-                <polygon points="90,10 80,20" class="poly"></polygon>
-                <polygon points="90,50 80,50" class="poly"></polygon>
-                <polygon points="80,80 70,70" class="poly"></polygon>
-            </svg>
-        </div>
+        <table>
+                <td><img src="img2.jpg"></td>
+                <td>
+                    <h5>Óculos de Grau Feminino Borboleta com cores de Onça</h5>
+                    <p class="coracao">R$125,00<img onclick="encherCoracao()" src="coracaoCheio.jpg" id="coracao"></p>
+                </td>
+        </table>
     </div>
-
-
-
-
-
-
-
-
-
-
     <!--NAVBAR DE BAIXO-->
     <footer>
         <div class="navegacao">
@@ -91,6 +75,7 @@
 
     <!--IMPORT DO SCRIPT DA ANIMAÇÃO NAVBAR DE BAIXO-->
     <script src="scriptNav.js"></script>
+    <script src="scriptCoracao.js"></script>
     <!--IMPORT DOS ÍCONES-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
